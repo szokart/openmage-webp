@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Septsite_Webp>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Septsite_Webp>
+    </modules>
+</config>

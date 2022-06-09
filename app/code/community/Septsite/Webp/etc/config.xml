@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<config>
+
+    <modules>
+        <Septsite_Webp>
+            <version>1.0.0</version>
+        </Septsite_Webp>
+    </modules>
+
+    <global>
+        <blocks>
+            <webp>
+                <class>Septsite_Webp_Block</class>
+            </webp>
+        </blocks>
+
+        <helpers>
+            <webp>
+                <class>Septsite_Webp_Helper</class>
+            </webp>
+        </helpers>
+
+        <models>
+            <webp>
+                <class>Septsite_Webp_Model</class>
+            </webp>
+        </models>
+    </global>
+
+    <frontend>
+        <layout>
+            <updates>
+                <webp>
+                    <file>webp.xml</file>
+                </webp>
+            </updates>
+        </layout>
+    </frontend>
+
+    <default>
+        <web>
+            <webp>
+                <enabled>1</enabled>
+                <cwebp_enabled>0</cwebp_enabled>
+                <cwebp_path>/usr/local/bin/cwebp</cwebp_path>
+                <gd_enabled>1</gd_enabled>
+            </webp>
+        </web>
+    </default>
+</config>
