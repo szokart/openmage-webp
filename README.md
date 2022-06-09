@@ -1,0 +1,1 @@
+# openmage-webp
